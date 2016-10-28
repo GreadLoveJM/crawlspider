@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>html - My Docs</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">My Docs</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">html</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../xpath/">xpath</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="..">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../xpath/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#_1">前端介绍</a></li>
+        
+            <li><a href="#html">html</a></li>
+        
+            <li><a href="#css">css</a></li>
+        
+            <li><a href="#javascript">javascript</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="_1">前端介绍</h1>
+<p>说好的html呢。。</p>
+<p>好吧，其实html只是网页的一部分，而前端才是整个网页。总的来说，前端无外乎3个部分：html,css,javascript。</p>
+<p>我们将会分别介绍这三个部分。</p>
+<h2 id="html">html</h2>
+<p>首先我要说的是，HTML是一种树。这是一个非常典型的树形数据结构在实际中的应用。</p>
+<p>文档中栗子不好举啊，我们去菜鸟教程的一个网站  <a href="http://www.runoob.com/try/try.php?filename=tryhtml_intro" target="_blank">html制作</a></p>
+<p>接下来我们可以尝试进行修改了。只有body里的内容才是我们的编辑内容。</p>
+<ol>
+<li>
+<p>首先我们介绍元素，元素是《》里的内容，不同的元素里面的内容也有不同的定义。</p>
+<p>div ： 定义代码块，便于管理，主要是便于css管理</p>
+<p>a：定义链接</p>
+<p>p：定义文本</p>
+<p>img：图片</p>
+<p>script：定义script执行脚本</p>
+<p>table：定义表格</p>
+<p>元素就是树中的节点，元素都有开始和结束，在开始和结束之间的其他元素，都是该元素的子孙节点。</p>
+</li>
+<li>
+<p>属性</p>
+<p>属性是用来定义节点作用的，是附属于节点的。比如控制节点颜色，字体大小等等。</p>
+<p>id：该属性在整个HTML中只出现一次，用来定义唯一的节点。</p>
+<p>class：该属性出现多次，用来定义属于同一类的节点。</p>
+<p>href：属于a标签，用来表示a标签下文本链接的其他网址。</p>
+</li>
+<li>
+<p>轴</p>
+<p>轴指节点之间的关系</p>
+<p>父节点：紧邻的上层节点</p>
+<p>子节点，兄弟节点，孙节点......</p>
+<p>关于HTML ，介绍这么多已经够了。注意理解。</p>
+</li>
+</ol>
+<h2 id="css">css</h2>
+<p>css 不多说，是一个界面管理与美化的语言，用于布局。对爬虫没多大用。</p>
+<h2 id="javascript">javascript</h2>
+<p>html是不可执行语言，就是一个文本语言，无逻辑。</p>
+<p>而javascript 就是用来在网页上执行逻辑处理的一种语言。可执行判断，循环等逻辑操作，让网页更加灵活。</p>
+<p>用的比较多的地方有加载数据。填充数据。</p>
+<p>HTML有两种形式，静态和动态</p>
+<p>静态的HTML是框架和数据都已经写死的一个HTML文件</p>
+<p>动态的HTML是只写了框架，没有数据，数据通过javascript添加</p>
+<p>如果html是个架子，json是数据，那么javascrapt 可以把数据按照需求填充到HTML适当地方。</p>
+<p>浏览器可以执行这个语言</p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
